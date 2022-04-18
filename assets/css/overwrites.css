@@ -1,0 +1,58 @@
+/* new */
+.container { max-width: 1280px; }
+.hidden { display: none !important; }
+.main-callouts { border-radius: 500px; width: 70%; margin-bottom: 20px; }
+.text-center { text-align: center; }
+
+.fc-white { color: #FFFFFF; }
+.fc-green { color: rgba(59, 175, 97, 1); }
+
+.dtr-slider .container,
+.dtr-slider .row { height: 100%; }
+.dtr-sticky-tabs-content { padding-top: 150px; }
+.dtr-bottom-shape-img { height: calc(100vh); z-index: 2; position: relative; /*background-color: rgba(0, 102, 153, 0.8);*/ }
+.dtr-slider h1 { font-size: 56px; line-height: 64px; }
+.dtr-slider .sub-text { display: block; }
+.dtr-slider .sub-text h4 { background-color: rgba(59, 175, 97, 1); display: inline; padding: 5px 0; font-size: 24px; line-height: 40px; }
+.dtr-slider .btn-blue { background-color: transparent; border: 2px solid #FFFFFF; }
+.dtr-bottom-shape-img.banner { height: 400px; }
+
+.overlay { position: absolute; height: 100%; width: 100%; top: 0; left: 0; z-index: 1; content: ""; }
+.overlay-green { background-color: rgba(59, 175, 97, 0.8); }
+.overlay-blue  { background: linear-gradient(90deg, rgba(0,102,153,1) 0%, rgba(0,102,153,0) 80%); }
+
+.dtr-members .card { border: 0; }
+.dtr-members .card-body { min-height: 140px; }
+
+.list-logos { list-style: none; margin: 20px 0; padding: 0; }
+.list-logos li { display: inline-block; margin-right: 10px; }
+.list-logos li img { height: 70px; }
+
+#dtr-header-global.trans-header { background-color: rgba(0, 102, 153, 0.8); }
+#dtr-header-global.trans-header.on-scroll { background-color: #FFFFFF; }
+#dtr-header-global.on-scroll { box-shadow: 0 2px 15px 0 rgb(0 0 0 / 20%); }
+
+.section { margin: 100px 0; }
+.section-become-member { margin-bottom: 50px; margin-top: -150px; z-index: 100; }
+
+.pb-250 { padding-bottom: 250px; }
+
+.dtr-menu-light .nav-link { position: relative; }
+.dtr-menu-light .nav-link:before { transition: ease all 0.3s; background-color: rgba(59, 175, 97, 1); }
+.dtr-menu-light .nav-link:before { content: ""; position: absolute; bottom: 5px; height: 2px; width: 0; }
+.dtr-menu-light .nav-link.active:before,
+.dtr-menu-light .nav-link:hover:before { width: 25%; }
+
+.dtr-banner { background-position: center center; }
+
+.dtr-form-dark-bg select,
+.dtr-form-dark-bg textarea,
+.dtr-form-dark-bg input[type="text"],
+.dtr-form-dark-bg input[type="email"],
+.dtr-form-dark-bg input[type="url"],
+.dtr-form-dark-bg input[type="password"],
+.dtr-form-dark-bg input[type="number"],
+.dtr-form-dark-bg input[type="tel"],
+.dtr-form-dark-bg input[type="search"] {
+    border-color: rgba(255, 255, 255, .2);
+}
