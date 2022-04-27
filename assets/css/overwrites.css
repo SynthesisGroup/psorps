@@ -17,6 +17,8 @@
 .dtr-slider .btn-blue { background-color: transparent; border: 2px solid #FFFFFF; }
 .dtr-bottom-shape-img.banner { height: 400px; }
 
+.page-home .dtr-slider .dtr-bottom-shape-img { min-height: 800px; }
+
 .overlay { position: absolute; height: 100%; width: 100%; top: 0; left: 0; z-index: 1; content: ""; }
 .overlay-green { background-color: rgba(59, 175, 97, 0.8); }
 .overlay-blue  { background: linear-gradient(90deg, rgba(0,102,153,1) 0%, rgba(0,102,153,0) 80%); }
@@ -43,7 +45,7 @@
 .dtr-menu-light .nav-link.active:before,
 .dtr-menu-light .nav-link:hover:before { width: 25%; }
 
-.dtr-banner { background-position: center center; }
+.dtr-banner { background-position: center center; padding-top: 100px; }
 
 .dtr-form-dark-bg select,
 .dtr-form-dark-bg textarea,
@@ -53,6 +55,6 @@
 .dtr-form-dark-bg input[type="password"],
 .dtr-form-dark-bg input[type="number"],
 .dtr-form-dark-bg input[type="tel"],
-.dtr-form-dark-bg input[type="search"] {
-    border-color: rgba(255, 255, 255, .2);
-}
+.dtr-form-dark-bg input[type="search"] { border-color: rgba(255, 255, 255, .2); }
+
+.list-blog-item { border-bottom: 1px solid #F1F1F1; padding: 10px 0; }

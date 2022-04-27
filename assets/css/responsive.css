@@ -222,12 +222,13 @@
 	.for-screen { display: none !important; }
 
 	.dtr-btn { padding: 12px 25px; border-radius: 5px; font-size: 16px; }
+	.dtr-slider { background-size: contain; }
 	
-	.dtr-slider { background-size: cover; }
-	.dtr-slider h1 { font-size: 32px; line-height: 40px; }
-	.dtr-slider .sub-text { display: none; }
-	.dtr-slider .dtr-mt-30 { margin-top: 10px !important; }
-	.dtr-slider .dtr-mr-30 { margin-right: 10px !important; }
+	.page-home .dtr-slider { background-size: cover; }
+	.page-home .dtr-slider h1 { font-size: 32px; line-height: 40px; }
+	.page-home .dtr-slider .sub-text { display: none; }
+	.page-home .dtr-slider .dtr-mt-30 { margin-top: 10px !important; }
+	.page-home .dtr-slider .dtr-mr-30 { margin-right: 10px !important; }
 	
 	.dtr-members .col { flex-basis: unset; }
 	.dtr-members .col .card { margin: 20px; }
@@ -238,12 +239,14 @@
 	.for-mobile { display: none !important; }
 	.for-screen { display: block !important; }
 	
+	.dtr-slider { background-size: cover; }
 	.dtr-btn { padding: 15px 40px; border-radius: 10px; font-size: 17px; }
-	.dtr-slider { background-size: contain; }
-	.dtr-slider h1 { font-size: 56px; line-height: 64px; }
-	.dtr-slider .sub-text { display: block; }
-	.dtr-slider .dtr-mt-30 { margin-top: 30px !important; }
-	.dtr-slider .dtr-mr-30 { margin-right: 30px !important; }
+	
+	.page-home .dtr-slider { background-size: contain; }
+	.page-home .dtr-slider h1 { font-size: 56px; line-height: 64px; }
+	.page-home .dtr-slider .sub-text { display: block; }
+	.page-home .dtr-slider .dtr-mt-30 { margin-top: 30px !important; }
+	.page-home .dtr-slider .dtr-mr-30 { margin-right: 30px !important; }
 	
 	.dtr-members .col { flex-basis: 0; }
 	.dtr-members .col .card { margin: 0; }
