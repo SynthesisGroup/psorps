@@ -16,6 +16,7 @@
 .dtr-slider .sub-text h4 { background-color: rgba(59, 175, 97, 1); display: inline; padding: 5px 0; font-size: 24px; line-height: 40px; }
 .dtr-slider .btn-blue { background-color: transparent; border: 2px solid #FFFFFF; }
 .dtr-bottom-shape-img.banner { height: 400px; }
+.dtr-cta-box-left { background-size: cover; }
 
 .page-home .dtr-slider .dtr-bottom-shape-img { min-height: 800px; }
 
