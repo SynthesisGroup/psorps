@@ -64,7 +64,7 @@
 								<li><a class="nav-link" href="index.html">Home</a></li>
 								<li><a class="nav-link" href="about.html">About Us</a></li>
 								<li>
-									<a class="nav-link active" href="members.html">Officers and Members</a>
+									<a class="nav-link" href="members.html">Officers and Members</a>
 									<ul>
 										<li><a href="members.html">Officers and Members</a></li>
 										<li><a href="founding-members.html">Founding Members</a></li>
@@ -78,7 +78,7 @@
 										<li><a href="featured-events.html">Featured Events</a></li>
 									</ul>
 								</li>
-								<li><a class="nav-link" href="contact.html">Contact Us</a></li>
+								<li><a class="nav-link active" href="contact.html">Contact Us</a></li>
 							</ul>
 						</div>
 					</div>
@@ -92,7 +92,7 @@
 		<!-- -->
 		<div id="dtr-main-content"> 
 			<!-- -->
-			<section class="dtr-section dtr-banner dtr-slider" style="background-image: url(assets/img/banner-members.png);"> 
+			<section class="dtr-section dtr-banner dtr-slider" style="background-image: url(assets/img/banner-contact.png);"> 
 				<!-- -->
 				<div class="dtr-bottom-shape-img banner" style="background-image: url(assets/img/hero-bottom.svg);">
 					<!-- -->
@@ -103,11 +103,11 @@
 							<div class="col-md-8"> 
 								<!-- -->
 								<div class="dtr-mt-50">
-									<h1 class="fc-white">Past Presidents</h1>
+									<h1 class="fc-white">Contact Us</h1>
 									
 									<!-- -->
-									<div class="sub-text hidden">
-										<h4 class="fc-white">Neque porro quisquam est qui dolorem</h4>
+									<div class="sub-text">
+										<h4 class="fc-white">Neque porro quisquam est</h4>
 									</div>
 								</div>
 							</div>
@@ -118,152 +118,86 @@
 				<!-- -->
 				<div class="overlay overlay-blue"></div>
 			</section>
-
+			
 			<!-- -->
 			<section class="section">
 				<!-- -->
-				<div class="container dtr-overlay-content">					
-					<!-- -->
-					<div class="row justify-content-center">
-						<!-- -->
-						<div class="col-md-12">
-							<!-- -->
-							<div class="row text-center">
+				<div class="container">                     
+                    <!-- -->
+                    <div class="row justify-content-center">                        
+                        <!-- -->
+                        <div class="col-md-7">                             
+                            <!-- -->
+                            <div class="dtr-styled-heading">
+                                <h2>Keep in Touch</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                            
+                            <!-- -->
+                            <div class="dtr-form dtr-form-styled">
 								<!-- -->
-								<div class="col-md-3">
-									<!-- -->
-									<div class="card mb-4">
-										<img src="assets/img/doctor-liborio.jpg" class="card-img-top" alt="Dr. Liborio Mangubat">
+                                <form id="contactform" method="post" action="php/contact-form.php">
+                                    <fieldset>                                        
+                                        <!-- -->
+                                        <div class="dtr-form-row dtr-form-row-2col clearfix">
+											<!-- -->
+                                            <div class="dtr-form-column">
+                                                <p class="dtr-form-field"> <span class="dtr-form-subtext">Your Name</span>
+                                                    <input name="name"  type="text" placeholder="Enter full name">
+                                                </p>
+                                            </div>
+											
+											<!-- -->
+                                            <div class="dtr-form-column">
+                                                <p class="dtr-form-field"> <span class="dtr-form-subtext">Email Address</span>
+                                                    <input name="email"  class="required email" type="text" placeholder="email@address.com">
+                                                </p>
+                                            </div>
+                                        </div>
+                                        
+                                        <p class="dtr-form-field"> <span class="dtr-form-subtext">Subject</span>
+                                            <input name="subject"  type="text" placeholder="Your purpose">
+                                        </p>
+                                        <p class="antispam">Leave this empty: <br />
+                                            <input name="url" />
+                                        </p>
+                                        <p class="dtr-form-field"> <span class="dtr-form-subtext">Your Message</span>
+                                            <textarea rows="6" name="message" id="message" class="required"  placeholder="Please write in brief..."></textarea>
+                                        </p>
+                                        <p class="text-center">
+                                            <button class="dtr-btn btn-red w-100" type="submit"> Submit Now <i class="icon-arrow-right-circle dtr-ml-10"></i> </button>
+                                        </p>
+                                        <div id="result"></div>
+                                    </fieldset>
+                                </form>
+                            </div>                            
+                        </div>
+                        
+                        <!-- -->
+                        <div class="col-md-4">
+							<h4 class="dtr-mt-50">Ways to get in touch</h4>
 
-										<!-- -->
-										<div class="card-body">
-											<h5 class="card-title mb-0">Dr. Liborio Mangubat</h5>
-											<p class="card-text">1992-1997</p>
-										</div>
-									</div>
-								</div>
-								
-								<!-- -->
-								<div class="col-md-3">
-									<!-- -->
-									<div class="card mb-4">
-										<img src="assets/img/doctor-javate.jpg" class="card-img-top" alt="Dr. Reynaldo Javate">
-
-										<!-- -->
-										<div class="card-body">
-											<h5 class="card-title mb-0">Dr. Reynaldo Javate</h5>
-											<p class="card-text">1997-2001</p>
-										</div>
-									</div>
-								</div>
-								
-								<!-- -->
-								<div class="col-md-3">
-									<!-- -->
-									<div class="card mb-4">
-										<img src="assets/img/doctor-mangubat.jpg" class="card-img-top" alt="Dr. Lenoardo Mangubat">
-
-										<!-- -->
-										<div class="card-body">
-											<h5 class="card-title mb-0">Dr. Lenoardo Mangubat</h5>
-											<p class="card-text">2001-2005</p>
-										</div>
-									</div>
-								</div>
-								
-								<!-- -->
-								<div class="col-md-3">
-									<!-- -->
-									<div class="card mb-4">
-										<img src="assets/img/doctor-kleiner.jpg" class="card-img-top" alt="Dr. Franklin Kleiner">
-
-										<!-- -->
-										<div class="card-body">
-											<h5 class="card-title mb-0">Dr. Franklin Kleiner</h5>
-											<p class="card-text">2006</p>
-										</div>
-									</div>
-								</div>
-								
-								<!-- -->
-								<div class="col-md-3">
-									<!-- -->
-									<div class="card mb-4">
-										<img src="assets/img/doctor-pe-yan.jpg" class="card-img-top" alt="Dr. Mary Rose Pe-Yan">
-
-										<!-- -->
-										<div class="card-body">
-											<h5 class="card-title mb-0">Dr. Mary Rose Pe-Yan</h5>
-											<p class="card-text">2007-2012</p>
-										</div>
-									</div>
-								</div>
-								
-								<!-- -->
-								<div class="col-md-3">
-									<!-- -->
-									<div class="card mb-4">
-										<img src="assets/img/doctor-alex.jpg" class="card-img-top" alt="Dr. Alex Tan">
-
-										<!-- -->
-										<div class="card-body">
-											<h5 class="card-title mb-0">Dr. Alex Tan</h5>
-											<p class="card-text">2013-2014</p>
-										</div>
-									</div>
-								</div>
-								
-								<!-- -->
-								<div class="col-md-3">
-									<!-- -->
-									<div class="card mb-4">
-										<img src="assets/img/doctor-donna.jpg" class="card-img-top" alt="Dr. Donna Santiago">
-
-										<!-- -->
-										<div class="card-body">
-											<h5 class="card-title mb-0">Dr. Donna Santiago</h5>
-											<p class="card-text">2015-2016</p>
-										</div>
-									</div>
-								</div>
-
-								<!-- -->
-								<div class="col-md-3">
-									<!-- -->
-									<div class="card mb-4">
-										<img src="assets/img/doctor-sua.jpg" class="card-img-top" alt="Dr. Alex S. Sua">
-
-										<!-- -->
-										<div class="card-body">
-											<h5 class="card-title mb-0">Dr. Alex S. Sua</h5>
-											<p class="card-text">2017</p>
-										</div>
-									</div>
-								</div>								
-								
-								<!-- -->
-								<div class="col-md-3">
-									<!-- -->
-									<div class="card mb-4">
-										<img src="assets/img/doctor-singson.jpg" class="card-img-top" alt="Dr. Roseny Mae C. Singson">
-
-										<!-- -->
-										<div class="card-body">
-											<h5 class="card-title mb-0">Dr. Roseny Mae C. Singson</h5>
-											<p class="card-text">2017-2018</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+							<ul class="dtr-contact-widget">
+								<li><i class="icon-phone-call"></i>+632 813 5318</li>
+									<li><i class="icon-phone-call"></i>+632 813 5324</li>
+									<li><i class="icon-envelope1"></i><a href="mailto:info@psoprs.org">info@psoprs.org</a></li>
+								<li class="hidden"><i class="icon-envelope1"></i><a href="mailto:membership@psoprs.org">membership@psoprs.org</a></li>
+									<li class="hidden"><i class="icon-map-pin1"></i>Unit 815 Medical Plaza Makati, Amorsolo St. corner De la Rosa St., Makati City, Philippines</li>
+							</ul>   
+                        </div>                        
+                    </div>                    
+                </div>
+			</section>
+			
+			<!-- -->
+			<section style="margin-bottom: -10px;">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3861.711176737495!2d121.01216171483973!3d14.558502039829355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1646063842629!5m2!1sen!2sph" allowfullscreen="" loading="lazy" style="border: 0; width: 100%; height: 560px;"></iframe>
 			</section>
 				
 			<!-- -->
-			<section id="contact" class="dtr-section dtr-section-with-bg bg-blue color-white"> 
+			<section class="dtr-section dtr-section-with-bg bg-blue color-white"> 
 				<!-- -->
-				<div class="dtr-py-100 dtr-top-shape-img" style="background-image: url(assets/img/contact-section-top.svg);">
+				<div class="dtr-py-100 dtr-top-shape-img">
 					<!-- -->
 					<div class="container">
 						<!-- -->
